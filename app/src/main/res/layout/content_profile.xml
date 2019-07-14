@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Profile"
+    tools:showIn="@layout/activity_profile"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="140dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+
+        android:layout_height="wrap_content"
+        android:text="Lester Rusike"
+        android:textAlignment="center"
+        android:paddingBottom="40dp"
+
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="0dp"
+
+        tools:layout_editor_absoluteY="181dp" />
+    <View
+        android:id="@+id/divider"
+        android:layout_width="395dp"
+        android:outlineAmbientShadowColor="@color/colorPrimary"
+        android:layout_height="1dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="236dp" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingBottom="20dp"
+
+        android:layout_height="wrap_content"
+        android:text="Track:                     Android"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="0dp"
+
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country:                   Zimbabwe"
+        android:paddingLeft="5dp"
+        android:paddingBottom="20dp"
+
+
+        android:textSize="19dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+            android:paddingBottom="20dp"
+        android:text="Email:                       Lesterrusike@gmail.com"
+        android:textSize="19dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="407dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingBottom="20dp"
+
+
+        android:text="Username:                  @Lesruez"
+        android:textSize="19dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Phone Number:       +263775658123"
+        android:textSize="19dp"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="458dp" />
+
+
+
+</LinearLayout>
