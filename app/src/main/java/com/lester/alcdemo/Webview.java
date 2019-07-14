@@ -35,7 +35,6 @@ public class Webview extends AppCompatActivity {
                     }
                 },
                 5000);
-        webView.loadUrl("https://andela.com/alc/");
 
         webView.setWebViewClient(new WebViewClient(){
 
